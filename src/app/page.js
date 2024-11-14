@@ -8,7 +8,7 @@ import DropDown from '@/components/DropDown'
 export default function Home() {
   return (
     <main className="">
-      <section className="flex flex-col px-5 md:px-10 lg:px-20 xl:px-32 py-20 md:flex-row ">
+      <section className="flex flex-col px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60 py-20 md:flex-row ">
         <aside className="flex flex-col gap-2 md:w-1/2">
           <h1 className="text-2xl text-center md:text-start sm:text-3xl md:text-4xl">Elevate Your Business With Tailored IT Solutions</h1>
           <p className="text-sm text-black/60 sm:text-base ">From DevOps to custom development, we support companies across Europe with solutions built for growth</p>
@@ -20,16 +20,16 @@ export default function Home() {
         {/* <Design/> */}
       </section>
       
-      <section className="px-5 md:px-10 lg:px-20 xl:px-32 flex flex-col gap-2">
+      <section className="px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60 flex flex-col gap-2">
         <h2 className="text-center text-xl sm:text-2xl md:text-3xl ">Our Expertise</h2>
         <div className="flex flex-col items-center gap-2 md:flex-row md:justify-between ">
-          <Card title={"Consulting"} description={"We guide your business through the complexities of digital transformation"} icon={<FaPhone className="text-2xl text-amber-200"/>} />
-          <Card title={"DevOps"} description={"Optimizing processes and structure for a resilient, scalable IT environment"} icon={<FaCloud className="text-2xl text-rose-300"/>} />
-          <Card title={"Custom Development"} description={"Developing tailored Apps and Web solutions to drive your success"} icon={<FaFileCode className="text-2xl text-amber-200"/>}/>
+          <Card title={"Consulting"} description={"We guide your business through the complexities of digital transformation"} icon={<FaPhone className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>} />
+          <Card title={"DevOps"} description={"Optimizing processes and structure for a resilient, scalable IT environment"} icon={<FaCloud className="text-2xl sm:text-3xl lg:text-4xl text-rose-300"/>} />
+          <Card title={"Custom Development"} description={"Developing tailored Apps and Web solutions to drive your success"} icon={<FaFileCode className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>}/>
         </div>
       </section>
 
-      <section className="px-5 md:px-10 lg:px-20 xl:px-32 py-5 flex justify-center ">
+      <section className="px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60 py-5 flex justify-center ">
         <div className="bg-lime-900 w-96 rounded-lg px-2 py-4 flex flex-col gap-4">
           <DropDown id={1} title={"Discovery"} description={"Understanding your needs and defining goals to shape the best possible solution"}/>
           <DropDown id={2} title={"Planning"} description={"Crafting a strategic plan that aligns with your objectives and timelines"}/>
