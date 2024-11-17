@@ -1,6 +1,6 @@
 import Design from "@/components/Design";
 import Card from "@/components/Card";
-import { FaPhone } from "react-icons/fa";
+import { MdLocalPhone } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa6";
 import DropDown from '@/components/DropDown'
@@ -23,9 +23,9 @@ export default function Home() {
       <section className="px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60 flex flex-col gap-2">
         <h2 className="text-center text-xl sm:text-2xl md:text-3xl ">Our Expertise</h2>
         <div className="flex flex-col items-center gap-2 md:flex-row md:justify-between ">
-          <Card title={"Consulting"} description={"We guide your business through the complexities of digital transformation"} icon={<FaPhone className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>} />
-          <Card title={"DevOps"} description={"Optimizing processes and structure for a resilient, scalable IT environment"} icon={<FaCloud className="text-2xl sm:text-3xl lg:text-4xl text-rose-300"/>} />
-          <Card title={"Custom Development"} description={"Developing tailored Apps and Web solutions to drive your success"} icon={<FaFileCode className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>}/>
+          <Card title={"Consulting"} description={"We guide your business through the complexities of digital transformation"}  bgColor={"bg-lime-900"} icon={<MdLocalPhone className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>} />
+          <Card title={"DevOps"} description={"Optimizing processes and structure for a resilient, scalable IT environment"} bgColor={"bg-lime-900"} icon={<FaCloud className="text-2xl sm:text-3xl lg:text-4xl text-rose-300"/>} />
+          <Card title={"Custom Development"} description={"Developing tailored Apps and Web solutions to drive your success"}  bgColor={"bg-lime-900"} icon={<FaFileCode className="text-2xl sm:text-3xl lg:text-4xl text-amber-200"/>}/>
         </div>
       </section>
 

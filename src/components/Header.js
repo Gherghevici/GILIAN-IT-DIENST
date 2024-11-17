@@ -17,7 +17,9 @@ export default function Header(){
                     </Link>
                     <p className="mt-0.5 md:mt-0 hover:text-lime-900 text-lg cursor-pointer">About</p>
                     <p className="mt-0.5 md:mt-0 hover:text-lime-900 text-lg cursor-pointer">Articles</p>
-                    <p className="mt-0.5 md:mt-0 hover:text-lime-900 text-lg cursor-pointer">Careers</p>
+                    <Link href={"/Careers"}>
+                        <p className="mt-0.5 md:mt-0 hover:text-lime-900 text-lg cursor-pointer">Careers</p>
+                    </Link>
                 </div>
             </div>
             <div className="order-3 basis-1/4 flex justify-end items-start md:order-3 md:basis-1/4">
