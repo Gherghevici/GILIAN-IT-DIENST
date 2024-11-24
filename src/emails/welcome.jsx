@@ -1,5 +1,5 @@
 import { Head,Html,Heading, Hr,Row, Text,Preview, Body,Tailwind,Container, Column, Button } from "@react-email/components";
-import Card from "@/components/Card";
+import Card from "@/app/[locale]/components/Card";
 import { MdLocalPhone } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa6";

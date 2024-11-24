@@ -1,5 +1,5 @@
 'use client'
-import Card from "@/components/Card";
+import Card from "@/app/[locale]/components/Card";
 
 import { MdLocalPhone } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";

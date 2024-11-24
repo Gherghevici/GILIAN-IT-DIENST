@@ -1,9 +1,9 @@
-import Design from "@/components/Design";
-import Card from "@/components/Card";
+import Design from "@/app/[locale]/components/Design";
+import Card from "@/app/[locale]/components/Card";
 import { MdLocalPhone } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaFileCode } from "react-icons/fa6";
-import DropDown from '@/components/DropDown'
+import DropDown from '@/app/[locale]/components/DropDown'
 
 export default function Home() {
   return (
