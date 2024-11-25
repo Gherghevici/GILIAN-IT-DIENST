@@ -1,10 +1,96 @@
 {
-  "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
-  },
-  "LocaleSwitcher":{
-    "label":"Change language",
-    "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
-  }
+ "Header": {
+      "Home":"test2",
+      "About":"About",
+      "Blog":"Blog & Wiki",
+      "Careers":"Careers",
+      "Contact":"Contact"
+    },
+    "HomePage": {
+        "section1":{
+          "h1":"Elevate Your Business With Tailored IT Solutions",
+          "p":"From custom software development to DevSecOps services, our team support your company with solutions built for growth",
+          "btn1":"Discover Our Services",
+          "btn2":"Schedule a Consultation"
+        },
+        "section2":{
+            "h2":"Our Expertise",
+            "card1":{
+              "h3":"Custom Development",
+              "p":"We are creating tailored Apps and Web Solutions to drive your succes."
+            },
+            "card2":{
+              "h3":"DevSecOps",
+              "p":"We support your business by optimizing and structure your project for scalable and secure IT environment."
+            },
+            "card3":{
+              "h3":"Consulting",
+              "p":"We guide your business through the complexities of digital transformation."
+            }
+          },
+        "section3":{
+            "drD1":{
+              "h3":"Discovery",
+              "p":"Understanding your needs and defining goals to shape the best possible solution"
+            },
+            "drD2":{
+              "h3":"Planning",
+              "p":"Crafting a strategic plan that aligns with your objectives and timelines"
+            },
+            "drD3":{
+              "h3":"Development",
+              "p":"Building and testing the solution with precision and attention to detail"
+            },
+            "drD4":{
+              "h3":"Launch & Support",
+              "p":"Ensuring a smooth launch and providing ongoing support for optimal performance"
+            }
+          }
+    },
+    "Contact":{
+      "section1":{
+        "h1":"Contact Us",
+        "p":"We’d love to hear from you! Whether you have a question, feedback, or simply want to say hello, we’re here to help. Use the form below to reach out, or connect with us via the provided contact details. We’ll get back to you as soon as possible!"
+      },
+      "section2":{
+        "emailForm":{
+          "btn":"Send"
+        },
+        "newsLetterForm":{
+          "h2":"Our Newsletters",
+          "p":"Subscribe to our newsletter and never miss a thing! Get the latest updates, and news delivered straight to your inbox. Join our community today!",
+          "btn":"Submit"
+        }
+      },
+      "section3":{
+        "card1":{
+            "h3":"+4071231231",
+            "p":"Give us a call! We’re just a phone call away to assist you with anything you need"
+          },
+        "card2":{
+            "h3":"email@email.com",
+            "p":"Prefer to write? Drop us an email, and we’ll get back to you as soon as possible."
+          },
+        "card3":{
+            "h3":"Iasi-Romania",
+            "p":"Visit us in person! Here’s where you can find us – we’d love to see you."
+          }
+      }
+
+    },
+    
+    "Cookies":{
+      "h2":"We use Cookies to analyze website trafic",
+      "p":"More on this on our Data collection policy",
+      "btn1":"Reject all",
+      "btn2":"Accept"
+    },
+    "Footer":{
+      "terms":"Terms of Service",
+      "privacy":"Privacy and Data Collection Policy"
+    },
+    "LocaleSwitcher":{
+      "label":"Change language",
+      "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+    }
 }

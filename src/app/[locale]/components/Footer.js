@@ -1,26 +1,25 @@
-import { IoLogoLinkedin } from "react-icons/io";
+import { CiLinkedin } from "react-icons/ci";
 import { SiGooglestreetview } from "react-icons/si";
-export default function Footer(){
+import { FaRegCopyright } from "react-icons/fa";
+import { Link } from "@/i18n/routing";
+export default function Footer({terms,privacy}){
     return(
-        <footer className="flex justify-between items-center px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60">
-            <section>
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
+        <footer className="flex flex-col sm:flex-row justify-between  py-2.5 px-5 md:px-10 lg:px-20 xl:px-32 2xl:px-60 bg-lime-900 text-white/90">
+            <section className="order-3 sm:order-1">
                 <div className="flex gap-5">
-                    <IoLogoLinkedin className="w-9 h-9"/>
-                    <SiGooglestreetview className="w-8 h-8"/>
+                    <CiLinkedin  className="w-9 h-9"/>
+                    <Link href={"/contact"}>
+                        <SiGooglestreetview className="w-8 h-8 cursor-pointer"/>
+                    </Link>
                 </div>
             </section>
-            <section>
-                <p>Gilian IT-Dienst S.R.L</p>
-                <p>CUI:5083247</p>
-                <p>J:J2024038529009</p>
+            <section className="order-2">
+                <p className="cursor-pointer">{terms}</p>
+                <p className="cursor-pointer">{privacy}</p>
             </section>
-            <section>
-                <p>Iasi-Romania</p>
-                
-                <p>email@gmail.com</p>
-                <p>+40712363210</p>
+            <section className="sm:order-3">
+                <p className="flex items-center gap-1"><FaRegCopyright /> Gilian IT-Dienst</p>
+                <p className="cursor-pointer">Impresum</p>
             </section>
         </footer>
     )
