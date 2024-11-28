@@ -57,14 +57,14 @@
           "btn":"Send"
         },
         "newsLetterForm":{
-          "h2":"Our Newsletters",
+          "h2":"Our Newsletter",
           "p":"Subscribe to our newsletter and never miss a thing! Get the latest updates, and news delivered straight to your inbox. Join our community today!",
           "btn":"Submit"
         }
       },
       "section3":{
         "card1":{
-            "h3":"+4071231231",
+            "h3":"+40739 969 929",
             "p":"Give us a call! We’re just a phone call away to assist you with anything you need"
           },
         "card2":{
@@ -79,6 +79,37 @@
 
     },
     
+    "Blog":{
+      "section1":{
+        "h1":"Blog & Wikis",
+        "p":""
+      },
+      "section2":{
+        "h2": "Sharing our thoughts on new tech, aiming to bring more value to you",
+
+        "newsLetterForm":{
+          "h2":"Our Newsletter",
+          "p":"You might want to consider subscribing to our newsletter and never miss a thing! Get the latest updates, and news delivered straight to your inbox. Join our community today!",
+          "btn":"Submit"
+        }
+      },
+      "section3":{
+        "imgcard1":{
+            "h3":"Remote work must thrive",
+            "p":"Now that the dark ages of so-called pandemic are (hopefully) long gone, the biggest companies are pushing their employees back in the box invoking 'moral grounds'. Naturally, people cannot get sick again according to needed statistics if they are not squeezed together by all means. We  hope for normality as good companies as Spotify embrace this reality fact..."
+          },
+        "imgcard2":{
+            "h3":"Forever young Information Technology",
+            "p":" There is no limit for emerging new technologies as we have already entered in the AI-driven way of life.  Various opinions cannot change that IT was, is and will forever be an impetuously changing environment..."
+          },
+        "imgcard3":{
+            "h3":"AI with Java?",
+            "p":"Is Python the only option or Java can also stand the challenge..."
+          }
+      }
+
+    },
+
     "Cookies":{
       "h2":"We use Cookies to analyze website trafic",
       "p":"More on this on our Data collection policy",

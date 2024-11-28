@@ -5,6 +5,14 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  images: {
+    localPatterns: [
+      {
+        pathname: '/images/**',
+        search: '',
+      },
+    ],
+  },
   theme: {
     extend: {
       colors: {
