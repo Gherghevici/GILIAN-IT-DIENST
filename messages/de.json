@@ -91,6 +91,6 @@
     },
     "LocaleSwitcher":{
       "label":"Sprache ändern",
-      "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+      "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {fr Francais} other {Unknown}}"
     }
 }

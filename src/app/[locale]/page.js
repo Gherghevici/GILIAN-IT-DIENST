@@ -7,6 +7,7 @@ import DropDown from '@/app/[locale]/components/DropDown'
 
 import {setRequestLocale} from 'next-intl/server';
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 export default function Home({params}) {
   
   async function loc(){
@@ -23,8 +24,12 @@ export default function Home({params}) {
           <h1 className="text-2xl text-center md:text-start sm:text-3xl md:text-4xl">{t("section1.h1")}</h1>
           <p className="text-sm text-black/60 sm:text-base ">{t("section1.p")}</p>
           <div className="flex flex-row justify-between items-center sm:justify-center sm:gap-2 md:flex-col md:items-start">
+          <Link href={"/contact"}>
             <button className="text-sm md:text-base px-2 py-1 rounded-lg bg-gradient-to-r from-lime-900 from-10% via-lime-800 via-50% to-lime-900 to-90% active:text-gray-100 active:bg-gradient-to-r active:from-lime-900 active:from-10%  active:via-lime-900 active:via-50% active:to-lime-900 active:to-90% transition-all text-white">{t("section1.btn1")}</button>
-            <button className="text-sm md:text-base px-2 md:px-4 py-1 rounded-lg bg-gradient-to-r from-lime-900 from-10% via-lime-800 via-50% to-lime-900 to-90% active:text-gray-100 active:bg-gradient-to-r active:from-lime-900 active:from-10%  active:via-lime-900 active:via-50% active:to-lime-900 active:to-90% transition-all  text-white">{t("section1.btn2")}</button>
+          </Link>
+            <Link href={"/contact"}>
+              <button className="text-sm md:text-base px-2 md:px-4 py-1 rounded-lg bg-gradient-to-r from-lime-900 from-10% via-lime-800 via-50% to-lime-900 to-90% active:text-gray-100 active:bg-gradient-to-r active:from-lime-900 active:from-10%  active:via-lime-900 active:via-50% active:to-lime-900 active:to-90% transition-all  text-white">{t("section1.btn2")}</button>
+            </Link>
           </div>
         </aside>
         {/* <Design/> */}
