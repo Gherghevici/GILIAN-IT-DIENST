@@ -18,8 +18,12 @@ export default  function Header({home,about,blog,careers,contact}){
                     <Link href={"/"}>
                         <p className=" hover:text-lime-900 cursor-pointer">{home}</p>
                     </Link>
-                    <p className=" hover:text-lime-900  cursor-pointer">{about}</p>
-                    <p className=" hover:text-lime-900  cursor-pointer">{blog}</p>
+                    <Link href={"/about"}>
+                        <p className=" hover:text-lime-900  cursor-pointer">{about}</p>
+                    </Link>
+                    <Link href={"/blog"}>
+                        <p className=" hover:text-lime-900  cursor-pointer">{blog}</p>
+                    </Link>
                     <Link href={"/Careers"}>
                         <p className=" hover:text-lime-900  cursor-pointer">{careers}</p>
                     </Link>
