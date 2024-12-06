@@ -78,7 +78,22 @@
       }
 
     },
-    
+    "Blog":{
+      "section1":{
+        "h1":"Blogs & Wiki",
+        "p":"Dive into a world of insights and shared knowledge! This section combines the dynamic storytelling of blogs with the collaborative expertise of wikis. Whether you're seeking inspiration, staying updated, you'll find a treasure trove of valuable information right here."
+      },
+      "cards":{
+        "card1":{
+          "h2":"Remote work must thrive",
+          "p":"Now that the dark ages of so-called pandemic are long gone, the biggest companies are pushing their employees back in the box invoking 'moral grounds'. Naturally, people cannot get sick again according to needed statistics if they are not squeezed together by all means"
+        },
+        "card2":{
+          "h2":"Forever young Information Technology",
+          "p":"There is no limit for emerging new technologies as we have already entered in the AI-driven way of life.  Various opinions cannot change that IT was, is and will forever be an impetuously changing environment..."
+        }
+      }
+    },
     "Cookies":{
       "h2":"We use Cookies to analyze website trafic",
       "p":"More on this on our Data collection policy",
