@@ -1,96 +1,96 @@
 {
     "Header": {
-      "Home":"Home",
-      "About":"About",
+      "Home":"Accueil",
+      "About":"Sur nous",
       "Blog":"Blog & Wiki",
-      "Careers":"Careers",
+      "Careers":"Carrières",
       "Contact":"Contact"
     },
     "HomePage": {
         "section1":{
-          "h1":"Elevate Your Business With Tailored IT Solutions",
-          "p":"From custom software development to DevSecOps services, our team support your company with solutions built for growth",
-          "btn1":"Discover Our Services",
-          "btn2":"Schedule a Consultation"
+          "h1":"Élevez votre entreprise grâce à des solutions informatiques sur mesure",
+          "p":"À partir du développement de logiciels personnalisés jusqu'aux services DevSecOps, notre équipe soutient votre entreprise avec des solutions conçues pour la croissance",
+          "btn1":"Découvrez nos services",
+          "btn2":"Planifier une consultation"
         },
         "section2":{
-            "h2":"Our Expertise",
+            "h2":"Notre Expertise",
             "card1":{
-              "h3":"Custom Development",
-              "p":"We are creating tailored Apps and Web Solutions to drive your succes."
+              "h3":"Développement Sur Mesure",
+              "p":"Nous allons élaborer des applications et des solutions Web sur mesure pour favoriser votre succès."
             },
             "card2":{
               "h3":"DevSecOps",
-              "p":"We support your business by optimizing and structure your project for scalable and secure IT environment."
+              "p":"Nous allons soutenir votre entreprise en optimisant et structurant votre projet pour un environnement informatique évolutif et sécurisé."
             },
             "card3":{
-              "h3":"Consulting",
-              "p":"We guide your business through the complexities of digital transformation."
+              "h3":"Consultation",
+              "p":"Nous guidons votre entreprise à travers les complexités de la transformation numérique."
             }
           },
         "section3":{
             "drD1":{
-              "h3":"Discovery",
-              "p":"Understanding your needs and defining goals to shape the best possible solution"
+              "h3":"Découverte",
+              "p":"Comprendre vos besoins et définir des objectifs pour façonner la meilleure solution possible."
             },
             "drD2":{
-              "h3":"Planning",
-              "p":"Crafting a strategic plan that aligns with your objectives and timelines"
+              "h3":"Planification",
+              "p":"Élaborer un plan stratégique qui s’aligne sur vos objectifs et vos échéanciers."
             },
             "drD3":{
-              "h3":"Development",
-              "p":"Building and testing the solution with precision and attention to detail"
+              "h3":"Développement",
+              "p":"Construire et tester la solution avec précision et souci du détail."
             },
             "drD4":{
-              "h3":"Launch & Support",
-              "p":"Ensuring a smooth launch and providing ongoing support for optimal performance"
+              "h3":"Lancement et Support",
+              "p":"Assurer un lancement en douceur et fournir un soutien continu pour des performances optimales"
             }
           }
     },
     "Contact":{
       "section1":{
-        "h1":"Contact Us",
-        "p":"We’d love to hear from you! Whether you have a question, feedback, or simply want to say hello, we’re here to help. Use the form below to reach out, or connect with us via the provided contact details. We’ll get back to you as soon as possible!"
+        "h1":"Nous Contacter",
+        "p":"Nous serions ravis d’avoir de vos nouvelles ! Que vous ayez une question, des commentaires ou que vous souhaitiez simplement nous dire bonjour, nous sommes là pour vous aider. Utilisez le formulaire ci-dessous pour nous contacter ou contactez-nous via les coordonnées fournies. Nous vous répondrons dans les plus brefs délais!"
       },
       "section2":{
         "emailForm":{
-          "btn":"Send"
+          "btn":"Envoyer"
         },
         "newsLetterForm":{
-          "h2":"Our Newsletters",
-          "p":"Subscribe to our newsletter and never miss a thing! Get the latest updates, and news delivered straight to your inbox. Join our community today!",
-          "btn":"Submit"
+          "h2":"Notre Infolettre",
+          "p":"SAbonnez-vous à notre newsletter et ne manquez rien ! Recevez les dernières mises à jour et nouvelles directement dans votre boîte de réception. Rejoignez notre communauté dès aujourd’hui!",
+          "btn":"Envoyer"
         }
       },
       "section3":{
         "card1":{
-            "h3":"+4071231231",
-            "p":"Give us a call! We’re just a phone call away to assist you with anything you need"
+            "h3":"+40 739 969 929",
+            "p":"Appelez-nous ! Nous ne sommes qu’à un coup de téléphone écart pour vous aider avec les besoins de votre entreprise."
           },
         "card2":{
             "h3":"email@email.com",
-            "p":"Prefer to write? Drop us an email, and we’ll get back to you as soon as possible."
+            "p":"Vous préférez écrire ? Envoyez-nous un courriel et nous vous répondrons dans les plus brefs délais."
           },
         "card3":{
             "h3":"Iasi-Romania",
-            "p":"Visit us in person! Here’s where you can find us – we’d love to see you."
+            "p":"Visitez-nous en personne ! C’est ici que vous pouvez nous trouver - nous serions ravis de vous voir."
           }
       }
 
     },
     
     "Cookies":{
-      "h2":"We use Cookies to analyze website trafic",
-      "p":"More on this on our Data collection policy",
-      "btn1":"Reject all",
-      "btn2":"Accept"
+      "h2":"Nous utilisons des cookies pour analyser le trafic du site web",
+      "p":"Plus d’informations à ce sujet sur notre politique de collecte de données.",
+      "btn1":"Tout rejeter",
+      "btn2":"Accepter"
     },
     "Footer":{
-      "terms":"Terms of Service",
-      "privacy":"Privacy and Data Collection Policy"
+      "terms":"Conditions d’utilisation",
+      "privacy":"Politique de confidentialité et de collecte de données"
     },
     "LocaleSwitcher":{
-      "label":"Change language",
-      "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {fr Francais} other {Unknown}}"
+      "label":"Changer la langue",
+      "locale":"{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {FR Français} other {Unknown}}"
     }
   }
